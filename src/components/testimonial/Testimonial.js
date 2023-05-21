@@ -99,9 +99,9 @@ const Testimonial = () => {
         <Slider {...settings}>
           <div className="w-full">
             <div className="w-full h-[500px] flex justify-between">
-              <div className="w-[35%] h-full bg-gradient-to-r from-[#1e2024] to-[#23272b] ">
+              <div className="w-[35%] h-full bg-gradient-to-r from-[#1e2024] to-[#23272b] p-8 shadow-shadowOne rounded-lg flex flex-col gap-8 justify-center">
                 <img
-                  className="h-72 md:h-32 lgl:h-72 rounded-lg object-cover"
+                  className="h-72 rounded-lg object-cover"
                   src={testimonialOne}
                   alt="testimonialOne"
                 />
@@ -149,11 +149,11 @@ const Testimonial = () => {
           {/* ================ Slider Two ================== */}
           <div className="w-full">
             <div className="w-full h-[500px] flex justify-between">
-              <div className="w-[35%] h-full bg-gradient-to-r from-[#1e2024] to-[#23272b] ">
+            <div className="w-[35%] h-full bg-gradient-to-r from-[#1e2024] to-[#23272b] p-8 shadow-shadowOne rounded-lg flex flex-col gap-8 justify-center">
                 <img
-                  className="h-72 md:h-32 lgl:h-72 rounded-lg object-cover"
+                  className="h-72 rounded-lg object-cover"
                   src={testimonialTwo}
-                  alt="testimonialOne"
+                  alt="testimonialTwo"
                 />
                 <div className="w-full flex flex-col justify-end">
                   <p className="text-xs uppercase text-designColor tracking-wide mb-2">
@@ -199,9 +199,9 @@ const Testimonial = () => {
           {/* ================ Slider Three ================== */}
           <div className="w-full">
             <div className="w-full h-[500px] flex justify-between">
-              <div className="w-[35%] h-full bg-gradient-to-r from-[#1e2024] to-[#23272b] ">
+            <div className="w-[35%] h-full bg-gradient-to-r from-[#1e2024] to-[#23272b] p-8 shadow-shadowOne rounded-lg flex flex-col gap-8 justify-center">
                 <img
-                  className="h-72 md:h-32 lgl:h-72 rounded-lg object-cover"
+                  className="h-72 rounded-lg object-cover"
                   src={testimonialOne}
                   alt="testimonialOne"
                 />
